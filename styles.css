@@ -1,0 +1,76 @@
+h1 {
+    color: #FFF8D6;
+    padding-left: 0.5em;
+    align-self: flex-end;
+}
+    
+h2 {
+    color: #617A55;
+    margin-left: -5px;
+    margin-bottom: 50px;
+}
+    
+main h2 {
+    background-color: #C9DBB2;
+    margin-top: 0;
+}
+    
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #617A55;
+    padding: 2px 0 2px 2px;
+}
+    
+nav, main {
+    background-color: #FFF8D6;
+}
+    
+footer {
+    color: white;
+    background-color: #617A55;
+    text-align: center;
+}
+    
+nav, main, footer {
+    padding: 0 5px;
+}
+   
+    
+header, nav, main {
+    border: 1px solid #617A55;
+}
+    
+    
+section {
+    padding-bottom: 50px;
+}
+    
+p {
+    margin: 0 5px;
+    padding: 0 5px;
+}
+
+table {
+    border-collapse: collapse; /* merge cell borders */
+    width: 100%; /* make the table fill its container */
+}
+
+
+th, td {
+    border: 1px solid #ddd; /* add borders to cells */
+    padding: 8px; /* add padding to cells */
+    text-align: left; /* align text to the left */
+}
+
+
+th {
+    background-color: #F7E1AE; /* add a background color to the header row */
+    font-weight: bold; /* make the header text bold */
+    color: #617A55;
+}
+
+.profile-img {
+    height: 300px;
+    border-radius: 200px;
+}
